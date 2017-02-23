@@ -11,6 +11,8 @@
 
         var ctrl = this;
 
+        ctrl.message = "";
+
         ctrl.list = TestService.getList();
 
         ctrl.addData = function () {
